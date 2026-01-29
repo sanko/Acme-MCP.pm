@@ -1,0 +1,93 @@
+{
+   "X_No_Archive" : "Yes",
+   "abstract" : "Cheap Model Context Protocol (MCP) Server",
+   "author" : [
+      "Sanko Robinson <sanko@cpan.org>"
+   ],
+   "description" : "Implements a server for the Model Context Protocol (MCP), allowing Perl code to be exposed as tools to AI agents.",
+   "dynamic_config" : 0,
+   "generated_by" : "App::mii v1.0.0",
+   "keywords" : [
+      "ai",
+      "mcp",
+      "model-context-protocol",
+      "llm",
+      "json-rpc",
+      "claude"
+   ],
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "https://metacpan.org/pod/CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Acme-MCP",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "eg"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0",
+            "perl" : "v5.40.0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "JSON::PP" : "0",
+            "perl" : "v5.40.0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test2::V0" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Acme::MCP" : {
+         "file" : "lib/Acme/MCP.pm",
+         "version" : "v1.0.0"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sanko/Acme-MCP.pm/issues"
+      },
+      "homepage" : "https://github.com/sanko/Acme-MCP",
+      "license" : [
+         "http://www.perlfoundation.org/artistic_license_2_0"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sanko/Acme-MCP.pm.git",
+         "web" : "https://github.com/sanko/Acme-MCP"
+      }
+   },
+   "version" : "v1.0.0",
+   "x_help_wanted" : [
+      "Tester",
+      "Documenter"
+   ],
+   "x_ignore" : [
+      ".tidyallrc",
+      ".gitignore",
+      ".github/",
+      ".github/*",
+      ".github/**",
+      ".clang-format"
+   ],
+   "x_serialization_backend" : "JSON::PP version 4.16",
+   "x_static_install" : 0
+}
