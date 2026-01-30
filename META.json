@@ -39,13 +39,13 @@
       "configure" : {
          "requires" : {
             "Module::Build::Tiny" : "0",
-            "perl" : "v5.40.0"
+            "perl" : "v5.42.0"
          }
       },
       "runtime" : {
          "requires" : {
             "JSON::PP" : "0",
-            "perl" : "v5.40.0"
+            "perl" : "v5.42.0"
          }
       },
       "test" : {
@@ -57,7 +57,7 @@
    "provides" : {
       "Acme::MCP" : {
          "file" : "lib/Acme/MCP.pm",
-         "version" : "v1.0.0"
+         "version" : "v1.0.1"
       }
    },
    "release_status" : "stable",
@@ -65,7 +65,7 @@
       "bugtracker" : {
          "web" : "https://github.com/sanko/Acme-MCP.pm/issues"
       },
-      "homepage" : "https://github.com/sanko/Acme-MCP",
+      "homepage" : "https://github.com/sanko/Acme-MCP.pm",
       "license" : [
          "http://www.perlfoundation.org/artistic_license_2_0"
       ],
@@ -75,7 +75,7 @@
          "web" : "https://github.com/sanko/Acme-MCP"
       }
    },
-   "version" : "v1.0.0",
+   "version" : "v1.0.1",
    "x_help_wanted" : [
       "Tester",
       "Documenter"

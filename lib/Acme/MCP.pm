@@ -1,8 +1,8 @@
-use v5.40;
+use v5.42;
 use feature 'class';
 no warnings 'experimental::class';
 #
-class Acme::MCP v1.0.0 {
+class Acme::MCP v1.0.1 {
     use JSON::PP;
     use Carp qw[carp croak];
     #
